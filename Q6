@@ -1,0 +1,14 @@
+
+1. Data collection frequency not be too high
+Reducing the frequency of data capture would reduce the amount of data to be transmitted and, hence reduce network load.Sensors work only during specified situations.
+
+2.Specified time slot transmission
+Through this , sensors communicate during specified time slots only and not continuously.
+This method also prevents data overflow from all nodes simultaneously and overall helps in the structured flow of data.
+
+3.Advanced sampling techniques
+These sensors are able to alter their data capture rate according to the surrounding activity and distractions.
+
+
+
+
