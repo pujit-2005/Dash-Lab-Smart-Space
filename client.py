@@ -10,7 +10,7 @@ def send_prompt(prompt):
     return response
 
 if __name__ == "__main__":
-    # Read prompts from input file
+  
     with open("input.txt", "r") as file:
         prompts = [line.strip() for line in file.readlines()]
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
         response = send_prompt(prompt)
         responses.append({"Prompt": prompt, "Response": response})
 
-    # Save responses to output file
+  
     with open("client_output.json", "w") as outfile:
         json.dump(responses, outfile, indent=4)
 
